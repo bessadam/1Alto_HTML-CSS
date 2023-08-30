@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" >
+
+  <link rel="stylesheet" href="./style.css">
+  <title>HTML & CSS</title>
+</head>
+<body>
+  <main class="containerBlock">
+    <section class="intro">
+      <div class="row">
+        <div class="col">
+          <div class="card-info">
+            <h2 class="card-info__header">Centered hero</h2>
+            <p class="card-info__text">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+            <div class="card-info__button-group">
+              <button type="button" class="btn btn-primary">Primary button</button>
+              <button type="button" class="btn btn-outline-primary">Secondary</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="collection-play">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+              <path d="M5 7C4.44772 7 4 6.55228 4 6C4 5.44772 4.44772 5 5 5H27C27.5523 5 28 5.44772 28 6C28 6.55228 27.5523 7 27 7H5Z" fill="#212529"/>
+              <path d="M9 3C8.44772 3 8 2.55228 8 2C8 1.44772 8.44772 1 9 1H23C23.5523 1 24 1.44772 24 2C24 2.55228 23.5523 3 23 3H9Z" fill="#212529"/>
+              <path d="M0 26C0 27.6569 1.34315 29 3 29H29C30.6569 29 32 27.6569 32 26V12C32 10.3431 30.6569 9 29 9H3C1.34315 9 0 10.3431 0 12V26ZM12.5152 13.1254C12.8332 12.9491 13.2217 12.9593 13.53 13.152L21.53 18.152C21.8224 18.3347 22 18.6552 22 19C22 19.3448 21.8224 19.6653 21.53 19.848L13.53 24.848C13.2217 25.0407 12.8332 25.0509 12.5152 24.8746C12.1973 24.6984 12 24.3635 12 24V14C12 13.6365 12.1973 13.3016 12.5152 13.1254Z" fill="#212529"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cols">
+      <h1 class="cols__header">Columns with icons</h1>
+      <hr>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card border-0">
+            <div class="card-body">
+              <h3 class="card-title">Featured Title</h3>
+              <p class="card-text">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <button class="btn btn-primary">
+                Call to Action <i class="bi bi-chevron-right pl-5"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card border-0">
+            <div class="card-body">
+              <h3 class="card-title">Featured Title</h3>
+              <p class="card-text">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <button type="button" class="btn btn-primary">
+                Call to action <i class="bi bi-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card border-0">
+            <div class="card-body">
+              <h3 class="card-title">Featured Title</h3>
+              <p class="card-text">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+              <button type="button" class="btn btn-primary">
+                Call to action <i class="bi bi-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section class="pricing">
+      <h1 class="pricing__heading">Pricing</h1>
+      <p class="pricing__text">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+      <div class="row">
+        <div class="col">
+          <div class="card text-center">
+            <div class="card-header">
+              Free
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">$0<small class="text-muted">/mo</small></h3>
+              <p class="card-text">10 users included <br>2 gb of storage <br>Email Support <br>Help center access</p>
+              <button href="#" class="btn btn-outline-primary">Sign up for Free</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <div class="card-header">
+              Pro
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">$15<small class="text-muted">/mo</small></h3>
+              <p class="card-text">20 users included <br>10 gb of storage <br>Priority Email Support <br>Help center access</p>
+              <a href="#" class="btn btn-primary">Get Started</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card text-center">
+            <div class="card-header text-white bg-primary">
+              Pro
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">$29<small class="text-muted">/mo</small></h3>
+              <p class="card-text">30 users included <br>15 gb of storage <br>Phone and Email Support <br>Help center access</p>
+              <a href="#" class="btn btn-primary">Contact us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="icon-grid">
+      <h1 class="icon-grid__header">Icon Grid</h1>
+      <hr>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card bg-light">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M5.25 0C5.66421 0 6 0.335786 6 0.75V1.5H18V0.75C18 0.335786 18.3358 0 18.75 0C19.1642 0 19.5 0.335786 19.5 0.75V1.5H21C22.6569 1.5 24 2.84315 24 4.5V21C24 22.6569 22.6569 24 21 24H3C1.34315 24 0 22.6569 0 21V4.5C0 2.84315 1.34315 1.5 3 1.5H4.5V0.75C4.5 0.335786 4.83579 0 5.25 0ZM1.5 6V21C1.5 21.8284 2.17157 22.5 3 22.5H21C21.8284 22.5 22.5 21.8284 22.5 21V6H1.5Z" fill="#212529"/>
+                  </svg>
+                </div>
+                <div class="col-sm-11">
+                  <h3 class="card-title">Featured Title</h3>
+                  <p class="card-text">Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card bg-light">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M5.25 0C5.66421 0 6 0.335786 6 0.75V1.5H18V0.75C18 0.335786 18.3358 0 18.75 0C19.1642 0 19.5 0.335786 19.5 0.75V1.5H21C22.6569 1.5 24 2.84315 24 4.5V21C24 22.6569 22.6569 24 21 24H3C1.34315 24 0 22.6569 0 21V4.5C0 2.84315 1.34315 1.5 3 1.5H4.5V0.75C4.5 0.335786 4.83579 0 5.25 0ZM1.5 6V21C1.5 21.8284 2.17157 22.5 3 22.5H21C21.8284 22.5 22.5 21.8284 22.5 21V6H1.5Z" fill="#212529"/>
+                  </svg>
+                </div>
+                <div class="col-sm-11">
+                  <h3 class="card-title">Featured Title</h3>
+                  <p class="card-text">Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card bg-light">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M5.25 0C5.66421 0 6 0.335786 6 0.75V1.5H18V0.75C18 0.335786 18.3358 0 18.75 0C19.1642 0 19.5 0.335786 19.5 0.75V1.5H21C22.6569 1.5 24 2.84315 24 4.5V21C24 22.6569 22.6569 24 21 24H3C1.34315 24 0 22.6569 0 21V4.5C0 2.84315 1.34315 1.5 3 1.5H4.5V0.75C4.5 0.335786 4.83579 0 5.25 0ZM1.5 6V21C1.5 21.8284 2.17157 22.5 3 22.5H21C21.8284 22.5 22.5 21.8284 22.5 21V6H1.5Z" fill="#212529"/>
+                  </svg>
+                </div>
+                <div class="col-sm-11">
+                  <h3 class="card-title">Featured Title</h3>
+                  <p class="card-text">Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card bg-light">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M5.25 0C5.66421 0 6 0.335786 6 0.75V1.5H18V0.75C18 0.335786 18.3358 0 18.75 0C19.1642 0 19.5 0.335786 19.5 0.75V1.5H21C22.6569 1.5 24 2.84315 24 4.5V21C24 22.6569 22.6569 24 21 24H3C1.34315 24 0 22.6569 0 21V4.5C0 2.84315 1.34315 1.5 3 1.5H4.5V0.75C4.5 0.335786 4.83579 0 5.25 0ZM1.5 6V21C1.5 21.8284 2.17157 22.5 3 22.5H21C21.8284 22.5 22.5 21.8284 22.5 21V6H1.5Z" fill="#212529"/>
+                  </svg>
+                </div>
+                <div class="col-sm-11">
+                  <h3 class="card-title">Featured Title</h3>
+                  <p class="card-text">Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card bg-light">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M5.25 0C5.66421 0 6 0.335786 6 0.75V1.5H18V0.75C18 0.335786 18.3358 0 18.75 0C19.1642 0 19.5 0.335786 19.5 0.75V1.5H21C22.6569 1.5 24 2.84315 24 4.5V21C24 22.6569 22.6569 24 21 24H3C1.34315 24 0 22.6569 0 21V4.5C0 2.84315 1.34315 1.5 3 1.5H4.5V0.75C4.5 0.335786 4.83579 0 5.25 0ZM1.5 6V21C1.5 21.8284 2.17157 22.5 3 22.5H21C21.8284 22.5 22.5 21.8284 22.5 21V6H1.5Z" fill="#212529"/>
+                  </svg>
+                </div>
+                <div class="col-sm-11">
+                  <h3 class="card-title">Featured Title</h3>
+                  <p class="card-text">Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card bg-light">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-sm-1">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M5.25 0C5.66421 0 6 0.335786 6 0.75V1.5H18V0.75C18 0.335786 18.3358 0 18.75 0C19.1642 0 19.5 0.335786 19.5 0.75V1.5H21C22.6569 1.5 24 2.84315 24 4.5V21C24 22.6569 22.6569 24 21 24H3C1.34315 24 0 22.6569 0 21V4.5C0 2.84315 1.34315 1.5 3 1.5H4.5V0.75C4.5 0.335786 4.83579 0 5.25 0ZM1.5 6V21C1.5 21.8284 2.17157 22.5 3 22.5H21C21.8284 22.5 22.5 21.8284 22.5 21V6H1.5Z" fill="#212529"/>
+                  </svg>
+                </div>
+                <div class="col-sm-11">
+                  <h3 class="card-title">Featured Title</h3>
+                  <p class="card-text">Paragraph of text beneath the heading to explain the heading.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
